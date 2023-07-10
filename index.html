@@ -2,6 +2,21 @@
 <html lang="en-US">
 <head>
     <style>
+        table{
+        font-family:Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+        
+        th,td{
+            border: 2px solid #bc1111;
+            text-align: left;
+            padding: 8px;
+
+        }
+        tr:nth-child(even){
+            background-color: #dddddd;
+        }
         .centered-button {
             text-align: center; /* Aligns the text horizontally */
             display: block; /* Makes the button a block-level element */
@@ -25,15 +40,47 @@
         
         padding: 20px;
     }
+
+
+
     </style>
     <!-- padding is a gap around an elemnt -->
     <link rel="stylesheet" href="../learn-HTML/style.css" >
 <title>my first html page</title>
-<body style="background-color: powderblue; text-align: center; border: 5px solid red;">
+<link rel="icon" type="image/x-icon" href="../learn-HTML/favicon.ico">
+
+<body style="background-color: rgb(226, 176, 230); text-align: center; border: 5px solid red;">
 </head>
 <a href="https://www.google.com/" target="_blank" ><img src="../learn-HTML/profile.png" alt="my profile" width="400" height="400" > </a>
-<pre style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
+<table style="width: 100%;">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+    <tr>
+        <td>COW</td>
+        <td>DOG</td>
+        <td>CAT</td>
+    </tr>
+    <tr>
+        <td>COW</td>
+        <td>DOG</td>
+        <td>CAT</td>
+    </tr>
+    <tr>
+        <td>COW</td>
+        <td>DOG</td>
+        <td>CAT</td>
+    </tr>
+</table>
+<pre style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; background-image: url(../learn-HTML/profile.png);color: aliceblue;">
     in theory this will pre tag will save all the line breaks and formating when displayed so lets find out 
+
+
+
+
+
     this is the second line [great it did do as in theory ]
 
 
@@ -67,7 +114,12 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 <p>The <abbr title="World Health Organization">WHO</abbr> abbrivation abbr tag</p>
 <a class="linkst" href="https://www.google.com/" target="_blank">this is a link styled as button</a>
 <br><br><br>
-<button class="centered-button">click me </button>
+<script>
+    function clikedme(){
+        alert("you clicked me ");
+    }
+</script>
+<button class="centered-button" onclick="clikedme()" >click me </button>
 <br>
 <address title="address tag example">
     Written by John Doe.<br>
@@ -77,5 +129,14 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
     USA
     </address>
 </body>
+<!-- picture elemnt allows you to display images for diffrent window sizes
+    <picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width:auto;">
+</picture>
+-->
+
 <br><br><br><br><hr><hr><br><br><br><br>
+
 </html>
