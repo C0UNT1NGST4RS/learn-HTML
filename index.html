@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+    <style>
+        .centered-button {
+            text-align: center; /* Aligns the text horizontally */
+            display: block; /* Makes the button a block-level element */
+            margin: 0 auto; /* Centers the button horizontally within its container */
+            background-color: chartreuse;
+            color: brown;
+            padding: 15px 25px;
+            border-style: none;
+        }
+    .linkst{
+         
+    color: azure;
+    background-color: brown;
+    padding: 15px 25px;
+    text-decoration: none;
+
+
+    }
+       
+    p{
+        
+        padding: 20px;
+    }
+    </style>
+    <!-- padding is a gap around an elemnt -->
     <link rel="stylesheet" href="../learn-HTML/style.css" >
 <title>my first html page</title>
 <body style="background-color: powderblue; text-align: center; border: 5px solid red;">
 </head>
-<img src="../learn-HTML/profile.png" alt="my profile" width="400" height="400" >
+<a href="https://www.google.com/" target="_blank" ><img src="../learn-HTML/profile.png" alt="my profile" width="400" height="400" > </a>
 <pre style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
     in theory this will pre tag will save all the line breaks and formating when displayed so lets find out 
     this is the second line [great it did do as in theory ]
@@ -39,11 +65,11 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 <h5>Fifth</h5>
 <h6 style="color:rgb(255, 0, 136);font-size:35px;" ><q>this is the last one with modifid font size with q tag for quotes</q> </h6>
 <p>The <abbr title="World Health Organization">WHO</abbr> abbrivation abbr tag</p>
-<a href="https://www.google.com/">this is a link</a>
+<a class="linkst" href="https://www.google.com/" target="_blank">this is a link styled as button</a>
 <br><br><br>
-<button style="height: 50px;width: 50px;color: blue; font: 1em sans-serif;background-color: cornsilk;">click me </button>
+<button class="centered-button">click me </button>
 <br>
-<address>
+<address title="address tag example">
     Written by John Doe.<br>
     Visit us at:<br>
     Example.com<br>
