@@ -30,3 +30,7 @@ Resource: MDN Web Docs - HTML Video and Audio - https://developer.mozilla.org/en
 
 Get familiar with more advanced HTML topics like iframes, semantic markup, and HTML5 features. Explore concepts like <canvas>, <article>, <header>, <footer>, and more.
 Resource: HTML.com - Advanced HTML Topics - https://html.com/advanced/
+
+
+
+This roadmap was created by CHATGPT to challenge myself , its not 3 days yet , i was not able to follow the road map  properly , i used w3school and almot learnd all tags in it the first day , in the second day i  was bzy with college and i tried to build my own landing page and i was able to do it with some help and i am also creating a login page , its better to learn like this , so in my experience it is possible to learn HTML in 3 days (if u have some basic understanding ).  my html css journey has just started :) , will update everyting , keep learning , its never too late , bye 
